@@ -16,9 +16,6 @@
 
 	<!-- JOEL: change "respawndelay" to world days, change "maxcount" to entities per area -->
 	<biome name="burnt_forest">
-		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesBurntForest"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesBurntForestUMA"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesBurntForestMixed"/>
@@ -26,9 +23,6 @@
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombieAnimals" spawnDeadChance="0"/>
 	</biome>
 	<biome name="desert">
-		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesDesert"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesDesertUMA"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesDesertMixed"/>
@@ -38,7 +32,6 @@
 	<biome name="forest">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesForest"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesForestUMA"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesForestMixed"/>
@@ -48,7 +41,6 @@
 	<biome name="pine_forest">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesPineForest"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesPineForestUMA"/>
 		<spawn maxcount="2" respawndelay="15" time="Any" entitygroup="ZombiesPineForestMixed"/>
@@ -58,7 +50,6 @@
 	<biome name="plains">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesPlains"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesPlainsUMA"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesPlainsMixed"/>
@@ -68,7 +59,6 @@
 	<biome name="snow">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesSnow"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesSnowUMA"/>
 		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesSnowMixed"/>
@@ -79,7 +69,6 @@
 	<biome name="wasteland">
 		<spawn maxcount="1" respawndelay="2" time="Night" entitygroup="JasonGroup" />
 		<spawn maxcount="1" respawndelay="60" time="Day" entitygroup="JasonGroup" />
-		<spawn maxcount="1" respawndelay="15" time="Any" entitygroup="ZombiesAll" />
 		<spawn maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesWastelandNight" />
 		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesWasteland"/>
 		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesWastelandUMA"/>
